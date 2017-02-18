@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Single AJAX</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    // constructing a queryURL variable we will use instead of the literal string
+    // inside of the ajax function
+    var title = "space+jam";
+    var queryURL = "http://www.omdbapi.com/?t=" + title + "&y=&plot=short&r=json";
+
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).done(function(response) {
+      console.log(response);
+
+      console.log(response.Runtime);
+    });
+  </script>
+
+</body>
+
+</html>

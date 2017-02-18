@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url(../imgs/ignasi_pattern_s.png);
+  margin-bottom: 150px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*---------NAV START----------*/
+.navbar-custom {
+  background-color: #fff;
+}
+
+#logo {
+  height: 60px;
+  margin-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background: #4aaaa5;
+  font-size: 24px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-right-custom {
+  padding-top: 6px;
+  padding-right: 20px;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #4aaaa5;
+}
+
+/*--------NAV END----------*/
+
+.about-me-header {
+  font-size: 32px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+
+.about-me-content {
+  margin-top: 32px;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px;
+}
+
+.about-me-content > p {
+  font-size: 16px;
+  color: #bbc;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+#nate-image {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/*-------------------*/
+/* CONNECT W/ ME CSS */
+/*-------------------*/
+
+#connect-with-me-area {
+  background-color: #fff;
+  margin-top: 32px;
+  padding: 30px 30px 43px 30px;
+  width: 100%;
+}
+
+.connect-with-me-header {
+  font-size: 25px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #4aaaa5;
+}
+
+.connect-with-me-photo {
+  height: 55px;
+  width: 55px;
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
+}
+/*-------END--------*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #666;
+  margin-top: 30px;
+}
+
+.text-muted-footer {
+  margin-top: 15px;
+  color: #fff;
+}
+
+.two-toned-footer-color {
+  height: 6px;
+  padding-top: 3px;
+  background-color: #4aaaa5;
+}
+
+/*-------------------*/
+/* CONTACT FORM CSS  */
+/*-------------------*/
+.contact-form {
+  padding: 45px 10px 25px 31px;
+  background-color: #fff;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.contact-form-header,
+.port-header {
+  font-size: 32px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+#msg {
+  height: 200px;
+  border-color: #bbc;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
+  color: #bbc;
+}
+
+.contact-hr {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: 0;
+  font-size: 16px;
+  font-weight: lighter;
+}
+/*----------END----------*/
+
+/*-------------------*/
+/* PORTFOLIO PAGE CSS */
+/*-------------------*/
+
+#portfolio-area {
+  width: 85%;
+  padding: 45px 10px 25px 31px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.port-hr {
+  margin-bottom: 40px;
+}
+
+.port-imgs {
+  width: 233px;
+  height: 166px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+/*---------END----------*/
+
+/*-------------------*/
+/* MEDIA  QUERY  CSS */
+/*-------------------*/
+
+@media only screen
+and (max-width : 767px) {
+
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+
+  #logo {
+    height: 60px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: #4aaaa5;
+    font-size: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+}
